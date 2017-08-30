@@ -2,8 +2,8 @@ $(document).ready(function(){
 $(".grid").hide();
 $(".but").click(function(){
 $(".grid").empty();
-$(".grid").fadeIn(3000);
 var size = prompt("Enter size");
+$(".grid").fadeIn(1000);
 var dimensions=450/size;
 for(var i=1;i<=size*size;i++){
 $(".grid").append('<div class="box"></div>');
